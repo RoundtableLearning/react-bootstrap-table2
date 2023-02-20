@@ -1,6 +1,10 @@
 import gulp from 'gulp';
 import babel from 'gulp-babel';
-import sass from 'gulp-sass';
+
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass(dartSass);
+
 import cleanCSS from 'gulp-clean-css';
 import cleanDir from 'gulp-clean';
 import rename from 'gulp-rename';
@@ -76,12 +80,12 @@ function styles() {
 
 function umd(done) {
   gulp.parallel(
-    () => gulp.src('./webpack/next.umd.babel.js').pipe(shell(['webpack --config <%= file.path %>'])),
-    () => gulp.src('./webpack/editor.umd.babel.js').pipe(shell(['webpack --config <%= file.path %>'])),
-    () => gulp.src('./webpack/filter.umd.babel.js').pipe(shell(['webpack --config <%= file.path %>'])),
-    () => gulp.src('./webpack/overlay.umd.babel.js').pipe(shell(['webpack --config <%= file.path %>'])),
-    () => gulp.src('./webpack/paginator.umd.babel.js').pipe(shell(['webpack --config <%= file.path %>'])),
-    () => gulp.src('./webpack/toolkit.umd.babel.js').pipe(shell(['webpack --config <%= file.path %>']))
+    () => gulp.src('./webpack/next.umd.babel.js').pipe(shell(['npx webpack-cli --config <%= file.path %>'])),
+    () => gulp.src('./webpack/editor.umd.babel.js').pipe(shell(['npx webpack-cli --config <%= file.path %>'])),
+    () => gulp.src('./webpack/filter.umd.babel.js').pipe(shell(['npx webpack-cli --config <%= file.path %>'])),
+    () => gulp.src('./webpack/overlay.umd.babel.js').pipe(shell(['npx webpack-cli --config <%= file.path %>'])),
+    () => gulp.src('./webpack/paginator.umd.babel.js').pipe(shell(['npx webpack-cli --config <%= file.path %>'])),
+    () => gulp.src('./webpack/toolkit.umd.babel.js').pipe(shell(['npx webpack-cli --config <%= file.path %>']))
   )();
   done();
 }

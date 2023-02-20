@@ -7,7 +7,8 @@ export default options => loading =>
   class TableLoadingOverlayWrapper extends React.Component {
     static propTypes = {
       children: PropTypes.element.isRequired
-    }
+    };
+
     componentDidMount() {
       if (loading) {
         const { wrapper } = this.overlay;

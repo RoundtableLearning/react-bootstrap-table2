@@ -1,27 +1,34 @@
 {
-  "extends": "airbnb",
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "jest": true,
-    "node": true
-  },
-  "plugins": [
-    "react"
-  ],
-  "rules": {
-    "comma-dangle": ["error", "never"],
-    "react/jsx-curly-spacing": [2, "always"],
-    "react/forbid-prop-types": 0,
-    "react/jsx-filename-extension": 0,
-    "react/jsx-space-before-closing": 0,
-    "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
-    "import/extensions": 0, // skip import extensions
-    "import/no-unresolved": [0, { "ignore": ["^react-bootstrap-table"] }], // monorepo setup
-    "import/prefer-default-export": 0,
-    "import/no-extraneous-dependencies": 0
-  },
-  "globals": {
-    "jest": false
-  }
+	"extends": "airbnb",
+	//"parser": "@babel/eslint-parser",
+	"parserOptions": {
+		"ecmaVersion": 2022
+	},
+	"env": {
+		"browser": true,
+		"jest": true,
+		"node": true
+	},
+	"plugins": ["react", "babel"],
+	"rules": {
+		"comma-dangle": 0, // ["error", "never"], // restore me someday
+		"react/jsx-curly-spacing": [2, "always"],
+		"react/forbid-prop-types": 0,
+		"react/jsx-filename-extension": 0,
+		"react/jsx-space-before-closing": 0,
+		"react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
+		"react/jsx-indent": 0,
+		"import/extensions": 0, // skip import extensions
+		"import/no-unresolved": [0, { "ignore": ["^react-bootstrap-table"] }], // monorepo setup
+		"import/prefer-default-export": 0,
+		"import/no-named-as-default": 0, // remove me someday
+		"import/no-named-as-default-member": 0, // remove me someday
+		"import/no-extraneous-dependencies": 0,
+		"react/prop-types": ["off"],
+		"semi": 0, // remove me someday
+		"no-trailing-spaces": 0
+	},
+	"globals": {
+		"jest": false
+	}
 }

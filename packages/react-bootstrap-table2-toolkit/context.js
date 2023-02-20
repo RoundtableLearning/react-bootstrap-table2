@@ -64,7 +64,7 @@ class ToolkitProvider extends statelessDecorator(React.Component) {
     this.state = state;
   }
 
-  // eslint-disable-next-line camelcase
+  /* eslint-disable camelcase */
   UNSAFE_componentWillReceiveProps(nextProps) {
     let columnToggle = this.state.columnToggle;
     if (nextProps.columnToggle) {
@@ -81,6 +81,7 @@ class ToolkitProvider extends statelessDecorator(React.Component) {
       columnToggle
     });
   }
+  /* eslint-enable camelcase */
 
   onSearch(searchText) {
     if (searchText !== this.state.searchText) {
