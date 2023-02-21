@@ -2022,6 +2022,73 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@roundtablelearning/react-bootstrap-table2@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@roundtablelearning/react-bootstrap-table2@workspace:."
+  dependencies:
+    "@babel/cli": ^7.21.0
+    "@babel/core": ^7.21.0
+    "@babel/plugin-proposal-class-properties": ^7.18.6
+    "@babel/plugin-proposal-decorators": ^7.21.0
+    "@babel/plugin-proposal-do-expressions": ^7.18.6
+    "@babel/plugin-proposal-export-default-from": ^7.18.10
+    "@babel/plugin-proposal-export-namespace-from": ^7.18.9
+    "@babel/plugin-proposal-function-bind": ^7.18.9
+    "@babel/plugin-proposal-function-sent": ^7.18.6
+    "@babel/plugin-proposal-json-strings": ^7.18.6
+    "@babel/plugin-proposal-logical-assignment-operators": ^7.20.7
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.18.6
+    "@babel/plugin-proposal-numeric-separator": ^7.18.6
+    "@babel/plugin-proposal-optional-chaining": ^7.21.0
+    "@babel/plugin-proposal-pipeline-operator": ^7.18.9
+    "@babel/plugin-proposal-throw-expressions": ^7.18.6
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/plugin-syntax-import-meta": ^7.10.4
+    "@babel/preset-env": ^7.20.2
+    "@babel/preset-react": ^7.18.6
+    "@babel/preset-stage-0": ^7.8.3
+    "@babel/register": ^7.21.0
+    babel-loader: ^9.1.2
+    classnames: ^2.2.5
+    css-loader: 0.28.1
+    dart-sass: ^1.25.0
+    enzyme: 3.4.0
+    enzyme-adapter-react-16: ^1.15.7
+    enzyme-to-json: 3.3.4
+    eslint: 8
+    eslint-config-airbnb: 15.1.0
+    eslint-plugin-babel: ^5.3.1
+    eslint-plugin-import: 2.7.0
+    eslint-plugin-jsx-a11y: 5.1.1
+    eslint-plugin-react: 7.2.1
+    eslint-webpack-plugin: ^4.0.0
+    gulp: ^4.0.2
+    gulp-babel: 8.0.0
+    gulp-clean: 0.4.0
+    gulp-clean-css: 3.9.2
+    gulp-rename: ^1.2.2
+    gulp-sass: 5.1.0
+    gulp-shell: 0.6.5
+    html-webpack-plugin: 5.5.0
+    jest: 29
+    jsdom: 11.2.0
+    jsdom-global: 3.0.2
+    lerna: 2.8.0
+    prop-types: 15.5.10
+    react: 16
+    react-dom: 16.4.0
+    react-test-renderer: 16.0.0
+    sass: ^1.58.3
+    sass-loader: ^13.2.0
+    sinon: 3.2.1
+    style-loader: 0.17.0
+    underscore: 1.9.1
+    webpack: ^5.75.0
+    webpack-cli: ^5.0.1
+    webpack-dev-server: 4.11.1
+  languageName: unknown
+  linkType: soft
+
 "@sinclair/typebox@npm:^0.25.16":
   version: 0.25.23
   resolution: "@sinclair/typebox@npm:0.25.23"
@@ -12697,73 +12764,6 @@ __metadata:
   checksum: 886976f30b5ac8ff853d72532501b5de0b37e2ebb7c8641209daf534a583b3ccff3ab6df38e974e34647627d72933a97668627c32bbaadd53941dd62f5387775
   languageName: node
   linkType: hard
-
-"react-bootstrap-table2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-bootstrap-table2@workspace:."
-  dependencies:
-    "@babel/cli": ^7.21.0
-    "@babel/core": ^7.21.0
-    "@babel/plugin-proposal-class-properties": ^7.18.6
-    "@babel/plugin-proposal-decorators": ^7.21.0
-    "@babel/plugin-proposal-do-expressions": ^7.18.6
-    "@babel/plugin-proposal-export-default-from": ^7.18.10
-    "@babel/plugin-proposal-export-namespace-from": ^7.18.9
-    "@babel/plugin-proposal-function-bind": ^7.18.9
-    "@babel/plugin-proposal-function-sent": ^7.18.6
-    "@babel/plugin-proposal-json-strings": ^7.18.6
-    "@babel/plugin-proposal-logical-assignment-operators": ^7.20.7
-    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.18.6
-    "@babel/plugin-proposal-numeric-separator": ^7.18.6
-    "@babel/plugin-proposal-optional-chaining": ^7.21.0
-    "@babel/plugin-proposal-pipeline-operator": ^7.18.9
-    "@babel/plugin-proposal-throw-expressions": ^7.18.6
-    "@babel/plugin-syntax-dynamic-import": ^7.8.3
-    "@babel/plugin-syntax-import-meta": ^7.10.4
-    "@babel/preset-env": ^7.20.2
-    "@babel/preset-react": ^7.18.6
-    "@babel/preset-stage-0": ^7.8.3
-    "@babel/register": ^7.21.0
-    babel-loader: ^9.1.2
-    classnames: ^2.2.5
-    css-loader: 0.28.1
-    dart-sass: ^1.25.0
-    enzyme: 3.4.0
-    enzyme-adapter-react-16: ^1.15.7
-    enzyme-to-json: 3.3.4
-    eslint: 8
-    eslint-config-airbnb: 15.1.0
-    eslint-plugin-babel: ^5.3.1
-    eslint-plugin-import: 2.7.0
-    eslint-plugin-jsx-a11y: 5.1.1
-    eslint-plugin-react: 7.2.1
-    eslint-webpack-plugin: ^4.0.0
-    gulp: ^4.0.2
-    gulp-babel: 8.0.0
-    gulp-clean: 0.4.0
-    gulp-clean-css: 3.9.2
-    gulp-rename: ^1.2.2
-    gulp-sass: 5.1.0
-    gulp-shell: 0.6.5
-    html-webpack-plugin: 5.5.0
-    jest: 29
-    jsdom: 11.2.0
-    jsdom-global: 3.0.2
-    lerna: 2.8.0
-    prop-types: 15.5.10
-    react: 16
-    react-dom: 16.4.0
-    react-test-renderer: 16.0.0
-    sass: ^1.58.3
-    sass-loader: ^13.2.0
-    sinon: 3.2.1
-    style-loader: 0.17.0
-    underscore: 1.9.1
-    webpack: ^5.75.0
-    webpack-cli: ^5.0.1
-    webpack-dev-server: 4.11.1
-  languageName: unknown
-  linkType: soft
 
 "react-dom@npm:16.4.0":
   version: 16.4.0
