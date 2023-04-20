@@ -5,7 +5,8 @@
   "description": "Rebuilt for react-bootstrap-table",
   "main": "index.js",
   "engines":{
-    "node": "16.14.0"
+    "node": "16.14.0",
+    "npm": "8.19.4"
   },
   "scripts": {
     "postinstall": "lerna bootstrap",
