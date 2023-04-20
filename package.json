@@ -4,6 +4,9 @@
   "private": true,
   "description": "Rebuilt for react-bootstrap-table",
   "main": "index.js",
+  "engines":{
+    "node": "16.14.0"
+  },
   "scripts": {
     "postinstall": "lerna bootstrap",
     "build": "gulp prod",
